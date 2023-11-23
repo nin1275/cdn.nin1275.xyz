@@ -381,7 +381,7 @@
     Folders
   */
   --folder-background-color: #2f3136;
-  --expanded-folder-background-color: #2f3136;
+  --expanded-folder-background-color: rgba(47, 49, 54, 0.767);
 
   /*
     Reactions
