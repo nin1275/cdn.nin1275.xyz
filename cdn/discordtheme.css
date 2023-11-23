@@ -1,0 +1,405 @@
+/**
+* @name nin1275
+* @author @nin1275
+* @description Not mine code is borrowed!
+*/
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/*
+  To make editing this theme easier I recommend using Notepad++
+  you can download it for free here https://notepad-plus-plus.org/download/
+*/
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+
+:root {
+    --lightness-600-660: 0%;
+    --lightness-700-760: 0%;
+    --lightness-800-860: 0%;
+    --lightness-900: 0%;
+    --primary-100: hsl(var(--primary-100-hsl)/1);
+    --primary-100-hsl: 0 calc(var(--saturation-factor, 1)*0%) 97.6%;
+    --primary-130: hsl(var(--primary-130-hsl)/1);
+    --primary-130-hsl: 220 calc(var(--saturation-factor, 1)*13%) 95.5%;
+    --primary-160: hsl(var(--primary-160-hsl)/1);
+    --primary-160-hsl: 210 calc(var(--saturation-factor, 1)*11.1%) 92.9%;
+    --primary-200: hsl(var(--primary-200-hsl)/1);
+    --primary-200-hsl: 216 calc(var(--saturation-factor, 1)*9.8%) 90%;
+    --primary-230: hsl(var(--primary-230-hsl)/1);
+    --primary-230-hsl: 210 calc(var(--saturation-factor, 1)*9.1%) 87.1%;
+    --primary-260: hsl(var(--primary-260-hsl)/1);
+    --primary-260-hsl: 214 calc(var(--saturation-factor, 1)*8.4%) 83.7%;
+    --primary-300: hsl(var(--primary-300-hsl)/1);
+    --primary-300-hsl: 210 calc(var(--saturation-factor, 1)*9.3%) 78.8%;
+    --primary-330: hsl(var(--primary-330-hsl)/1);
+    --primary-330-hsl: 215 calc(var(--saturation-factor, 1)*8.8%) 73.3%;
+    --primary-345: hsl(var(--primary-345-hsl)/1);
+    --primary-345-hsl: 214 calc(var(--saturation-factor, 1)*8.4%) 67.5%;
+    --primary-360: hsl(var(--primary-360-hsl)/1);
+    --primary-360-hsl: 214 calc(var(--saturation-factor, 1)*8.1%) 61.2%;
+    --primary-400: hsl(var(--primary-400-hsl)/1);
+    --primary-400-hsl: 223 calc(var(--saturation-factor, 1)*5.8%) 52.9%;
+    --primary-430: hsl(var(--primary-430-hsl)/1);
+    --primary-430-hsl: 229 calc(var(--saturation-factor, 1)*4.8%) 44.9%;
+    --primary-460: hsl(var(--primary-460-hsl)/1);
+    --primary-460-hsl: 228 calc(var(--saturation-factor, 1)*5.2%) 38%;
+    --primary-500: hsl(var(--primary-500-hsl)/1);
+    --primary-500-hsl: 228 calc(var(--saturation-factor, 1)*6%) 32.5%;
+    --primary-530: hsl(var(--primary-530-hsl)/1);
+    --primary-530-hsl: 227 calc(var(--saturation-factor, 1)*6.5%) 27.3%;
+    --primary-560: hsl(var(--primary-560-hsl)/1);
+    --primary-560-hsl: 225 calc(var(--saturation-factor, 1)*6.7%) 23.5%;
+    --primary-600: hsl(var(--primary-600-hsl)/1);
+    --primary-600-hsl: 223 calc(var(--saturation-factor, 1)*6.7%) calc(var(--lightness-600-660, 0) + 20.6%);
+    --primary-630: hsl(var(--primary-630-hsl)/1);
+    --primary-630-hsl: 220 calc(var(--saturation-factor, 1)*6.5%) calc(var(--lightness-600-660, 0) + 18%);
+    --primary-645: hsl(var(--primary-645-hsl)/1);
+    --primary-645-hsl: 220 calc(var(--saturation-factor, 1)*7%) calc(var(--lightness-600-660, 0) + 16.9%);
+    --primary-660: hsl(var(--primary-660-hsl)/1);
+    --primary-660-hsl: 228 calc(var(--saturation-factor, 1)*6.7%) calc(var(--lightness-600-660, 0) + 14.7%);
+    --primary-700: hsl(var(--primary-700-hsl)/1);
+    --primary-700-hsl: 225 calc(var(--saturation-factor, 1)*6.3%) calc(var(--lightness-700-760, 0) + 12.5%);
+    --primary-730: hsl(var(--primary-730-hsl)/1);
+    --primary-730-hsl: 225 calc(var(--saturation-factor, 1)*7.1%) calc(var(--lightness-700-760, 0) + 11%);
+    --primary-760: hsl(var(--primary-760-hsl)/1);
+    --primary-760-hsl: 220 calc(var(--saturation-factor, 1)*6.4%) calc(var(--lightness-700-760, 0) + 9.2%);
+    --primary-800: hsl(var(--primary-800-hsl)/1);
+    --primary-800-hsl: 220 calc(var(--saturation-factor, 1)*8.1%) calc(var(--lightness-800-860, 0) + 7.3%);
+    --primary-830: hsl(var(--primary-830-hsl)/1);
+    --primary-830-hsl: 240 calc(var(--saturation-factor, 1)*4%) calc(var(--lightness-800-860, 0) + 4.9%);
+    --primary-860: hsl(var(--primary-860-hsl)/1);
+    --primary-860-hsl: 240 calc(var(--saturation-factor, 1)*7.7%) calc(var(--lightness-800-860, 0) + 2.5%);
+    --primary-900: hsl(var(--primary-900-hsl)/1);
+    --primary-900-hsl: 0 calc(var(--saturation-factor, 1)*0%) calc(var(--lightness-900, 0) + 0.8%);
+  }
+  
+  .theme-dark,
+  html.theme-dark .theme-light .root_a28985,
+  .theme-light.popout_a6e77f {
+    --activity-card-background: var(--primary-830) !important;
+    --android-navigation-bar-background: var(--primary-830) !important;
+    --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5) !important;
+    --android-ripple: hsl(var(--white-500-hsl)/0.07) !important;
+    --background-accent: var(--primary-760) !important;
+    --background-floating: var(--primary-830) !important;
+    --background-message-hover: hsl(var(--primary-900-hsl)/0.06) !important;
+    --background-mobile-primary: var(--black-500) !important;
+    --background-mobile-secondary: var(--primary-860) !important;
+    --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;
+    --background-modifier-active: hsl(var(--primary-760-hsl)/0.48) !important;
+    --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
+    --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
+    --background-nested-floating: var(--primary-830) !important;
+    --background-primary: #000000 !important;
+    --background-secondary: var(--primary-830) !important;
+    --background-secondary-alt: var(--primary-800) !important;
+    --background-tertiary: var(--primary-860) !important;
+    --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;
+    --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;
+    --button-outline-brand-text: var(--white-500) !important;
+    --button-outline-brand-text-active: var(--white-500) !important;
+    --button-outline-brand-text-hover: var(--white-500) !important;
+    --button-outline-danger-background: hsl(var(--white-500-hsl)/0) !important;
+    --button-outline-danger-background-active: var(--red-460) !important;
+    --button-outline-danger-background-hover: var(--red-430) !important;
+    --button-outline-danger-border: var(--red-400) !important;
+    --button-outline-danger-border-active: var(--red-430) !important;
+    --button-outline-danger-border-hover: var(--red-430) !important;
+    --button-outline-danger-text: var(--white-500) !important;
+    --button-outline-danger-text-active: var(--white-500) !important;
+    --button-outline-danger-text-hover: var(--white-500) !important;
+    --button-outline-positive-background: hsl(var(--white-500-hsl)/0) !important;
+    --button-outline-positive-text: var(--white-500) !important;
+    --button-outline-positive-text-active: var(--white-500) !important;
+    --button-outline-positive-text-hover: var(--white-500) !important;
+    --button-outline-primary-background: var(--primary-700) !important;
+    --button-outline-primary-background-active: var(--primary-600) !important;
+    --button-outline-primary-background-hover: var(--primary-630) !important;
+    --button-outline-primary-border: var(--primary-700) !important;
+    --button-outline-primary-border-active: var(--primary-600) !important;
+    --button-outline-primary-border-hover: var(--primary-630) !important;
+    --button-outline-primary-text: var(--white-500) !important;
+    --button-outline-primary-text-active: var(--white-500) !important;
+    --button-outline-primary-text-hover: var(--white-500) !important;
+    --button-secondary-background: var(--primary-700) !important;
+    --button-secondary-background-active: var(--primary-600) !important;
+    --button-secondary-background-disabled: var(--primary-700) !important;
+    --button-secondary-background-hover: var(--primary-630) !important;
+    --channel-icon: var(--primary-400) !important;
+    --channel-text-area-placeholder: var(--primary-400) !important;
+    --channels-default: var(--primary-360) !important;
+    --channeltextarea-background: var(--primary-830) !important;
+    --chat-background: var(--black-500) !important;
+    --chat-border: var(--primary-700) !important;
+    --chat-input-container-background: var(--primary-600) !important;
+    --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6) !important;
+    --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
+    --deprecated-quickswitcher-input-background: var(--primary-400) !important;
+    --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;
+    --deprecated-store-bg: var(--primary-600) !important;
+    --deprecated-text-input-bg: var(--primary-700) !important;
+    --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;
+    --deprecated-text-input-border-disabled: var(--primary-700) !important;
+    --deprecated-text-input-border-hover: var(--primary-900) !important;
+    --deprecated-text-input-prefix: var(--primary-200) !important;
+    --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
+    --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8) !important;
+    --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
+    --header-primary: var(--primary-130) !important;
+    --header-secondary: var(--primary-345) !important;
+    --home-background: var(--primary-760) !important;
+    --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
+    --info-danger-text: var(--white-500) !important;
+    --info-help-text: var(--white-500) !important;
+    --info-positive-text: var(--white-500) !important;
+    --info-warning-text: var(--white-500) !important;
+    --input-background: var(--primary-800) !important;
+    --input-placeholder-text: var(--input-placeholder-text-dark) !important;
+    --interactive-active: var(--primary-130) !important;
+    --interactive-hover: var(--primary-230) !important;
+    --interactive-muted: var(--primary-500) !important;
+    --interactive-normal: var(--primary-345) !important;
+    --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6) !important;
+    --logo-primary: var(--white-500) !important;
+    --mention-background: hsl(var(--brand-500-hsl)/0.3) !important;
+    --modal-background: var(--primary-860) !important;
+    --modal-footer-background: var(--primary-900) !important;
+    --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48) !important;
+    --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3) !important;
+    --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6) !important;
+    --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl)/0.8) !important;
+    --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl)/0.16) !important;
+    --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5) !important;
+    --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2) !important;
+    --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--primary-700) !important;
+    --scrollbar-auto-scrollbar-color-track: var(--primary-630) !important;
+    --scrollbar-auto-thumb: var(--primary-600) !important;
+    --scrollbar-auto-track: var(--primary-860) !important;
+    --scrollbar-thin-thumb: var(--primary-700) !important;
+    --scrollbar-thin-track: hsl(var(--black-500-hsl)/0) !important;
+    --spoiler-hidden-background: var(--primary-700) !important;
+    --spoiler-revealed-background: var(--primary-660) !important;
+    --status-danger-text: var(--white-500) !important;
+    --status-positive-text: var(--white-500) !important;
+    --status-warning-text: var(--black-500) !important;
+    --text-muted: var(--primary-345) !important;
+    --text-normal: var(--primary-300) !important;
+    --textbox-markdown-syntax: var(--primary-360) !important;
+    --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
+    --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
+    --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
+    --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;
+    --elevation-high: 0 8px 16px hsl(var(--black-500-hsl)/0.24) !important;
+    --profile-gradient-primary-color: var(--background-floating);
+    --profile-gradient-secondary-color: var(--background-floating);
+    --profile-gradient-overlay-color: transparent;
+    --profile-gradient-button-color: var(--button-secondary-background);
+    --profile-avatar-border-color: var(--background-floating);
+    --profile-message-input-border-color: var(--background-modifier-accent);
+    --profile-body-background-color: var(--background-primary);
+    --profile-body-background-hover: var(--background-modifier-hover);
+    --profile-body-divider-color: var(--background-modifier-accent);
+    --profile-role-pill-background-color: var(--background-floating);
+    --profile-role-pill-border-color: var(--interactive-normal);
+    --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;
+    --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
+    --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
+    --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
+    --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://i.imgur.com/d11aiXP.gif);
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(190, 190, 190);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgb(0, 0, 0);
+
+  /*
+    Home Icon Image
+  */
+  --home-icon-image: url(https://i.imgur.com/KiNcLos.png);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 75%;
+
+  /*
+    Server Listing Width
+    Single Column:  62px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 62px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors box
+  */
+  --mention-color: rgba(250, 166, 26, 0.05);
+  --mention-sider: rgba(250, 166, 26, 1);
+  --mention-hover-color: rgba(250, 166, 26, 0.08);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(200, 200, 200);
+
+  /*
+    Change the unread server animation. 48
+    Replace it with "none" in order to remove any animations and use the main color instead
+  */
+  --unread-server-animation: none;
+
+  /*
+    Video / Screen share buttons
+  */
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  /*
+    Role Title Color
+  */
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgb(0, 0, 0);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgb(0, 0, 0);
+  --big-user-popout-background-image-position: center;
+
+  /*
+    Code Markup
+  */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgb(7, 7, 7);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(22, 22, 22, 0.6)
+
+  /*
+    Message Hover Buttons
+  */
+  --message-hover-buttons-background: rgba(148, 148, 148, 0.1);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgb(15, 15, 15);
+
+  /*
+    Add Server / Discovery Icon
+  */
+  --add-discover-icon-transparency: rgba(15, 15, 15, 0.15);
+  --add-discover-icon-color: #000000;
+
+  /*
+    Channel Limit Number Color
+  */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+
+  /*
+    Scrollbar Colors
+  */
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+
+  /*
+    Unread Message Divider
+  */
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+
+  /*
+    New Messages Bar Color
+  */
+  --new-messages-bar-background-color: rgba(0, 0, 0, 0.745);
+  --new-messages-bar-font-color: #fff;
+
+  /*
+    Emoji Menu
+  */
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+
+  /*
+    Message Search
+  */
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(142, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  /*
+    Folders
+  */
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+
+  /*
+    Reactions
+  */
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+}
+  /*
+    No border around server icon delete to have border
+  */
+.item_f9d377 {
+  border: 0px;
+  border-radius: 0 4px 4px 0;
+  top: 20px;
+  left: -14px;
+  width: 8px;
+  height: 8px !important;
+  background-color: #fff;
+}
