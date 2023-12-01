@@ -148,7 +148,7 @@
     --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
     --header-primary: var(--primary-130) !important;
     --header-secondary: var(--primary-345) !important;
-    --home-background: var(--primary-760) !important;
+    /*--home-background: var(--primary-760) !important;*/
     --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
     --info-danger-text: var(--white-500) !important;
     --info-help-text: var(--white-500) !important;
