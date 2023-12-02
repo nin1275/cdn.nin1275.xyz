@@ -91,7 +91,7 @@
     --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
     --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
     --background-nested-floating: var(--primary-830) !important;
-    /*--background-primary: #000000 !important;*/
+    --background-primary: #000000 !important;
     --background-secondary: var(--primary-830) !important;
     --background-secondary-alt: var(--primary-800) !important;
     --background-tertiary: var(--primary-860) !important;
@@ -148,7 +148,7 @@
     --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
     --header-primary: var(--primary-130) !important;
     --header-secondary: var(--primary-345) !important;
-    /*--home-background: var(--primary-760) !important;*/
+    --home-background: var(--primary-760) !important;
     --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
     --info-danger-text: var(--white-500) !important;
     --info-help-text: var(--white-500) !important;
@@ -211,7 +211,7 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://i.imgur.com/d11aiXP.gif);
+  --theme-background-image: url(https://i.imgur.com/d11aiXP.gif) !important;
 
   /*
     Main Theme Color
