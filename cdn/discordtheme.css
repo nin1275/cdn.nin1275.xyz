@@ -245,7 +245,7 @@
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 64px;
+  --server-listing-width: 62px;
 
   /*
     Font Size
@@ -391,6 +391,7 @@
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
 }
+
   /*
     No border around server icon delete to have border
   */
